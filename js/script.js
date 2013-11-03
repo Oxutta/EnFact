@@ -4,9 +4,8 @@ Array.prototype.indexOf = function(ob) {
       if(this[i]==ob)return i;
      }
      return -1;
-  };
-  Array.prototype.shuffle = function()
-  {
+};
+Array.prototype.shuffle = function() {
      var n=this.length,i1,i2;
      for(var i=0;i<n*2;i++) {
       i1=Math.floor(Math.random()*n);
@@ -16,4 +15,4 @@ Array.prototype.indexOf = function(ob) {
       this[i2]=a;
      }
      return this;
-  };
+};
