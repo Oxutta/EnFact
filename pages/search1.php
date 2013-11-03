@@ -1,0 +1,4 @@
+<?
+echo $_COOKIE['sizeVoc'];
+
+?>
